@@ -1,4 +1,4 @@
-public class Pal {
+public class GoldProfit {
     
     // [4,0,4,2] -> Buy on day 1 and sell on day 2
     
@@ -9,7 +9,7 @@ public class Pal {
     
     
     public static void main(String args[]) {
-        int[] prices = [4,1,4,2,0,2];
+        int[] goldPrices = [4,1,4,2,0,2];
         int max = getMaxProfit(goldPrices);
     }
     
